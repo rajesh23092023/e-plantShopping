@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addItem } from './CartSlice';
+import { addItem } from './CartSlice.jsx';
 import './ProductList.css';
-import CartItem from './CartItem'; // Ensure this file exists for the cart functionality
+import CartItem from './CartItem.jsx'; // Ensure this file exists for the cart functionality
 
 // The detailed, categorized list of plants to be displayed
 const plantsArray = [

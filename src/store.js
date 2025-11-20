@@ -1,7 +1,7 @@
 // src/store.js
 
 import { configureStore } from '@reduxjs/toolkit';
-import cartReducer from './CartSlice'; // Assuming the slice file is named CartSlice.js or CartSlice.jsx
+import cartReducer from './CartSlice.jsx'; // Assuming the slice file is named CartSlice.js or CartSlice.jsx
 
 /**
  * Creates and configures the Redux store.

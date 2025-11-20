@@ -1,9 +1,9 @@
 // App.jsx (CORRECTED)
 
 import React, { useState } from 'react';
-import ProductList from './ProductList';
+import ProductList from './ProductList.jsx';
 import './index.css'; // Assuming this is your combined CSS file
-import AboutUs from './AboutUs';
+import AboutUs from './AboutUs.jsx';
 
 function App() {
   

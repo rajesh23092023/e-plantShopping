@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { updateQuantity, removeItem } from './CartSlice'; // Consolidated import for actions
+import { updateQuantity, removeItem } from './CartSlice.jsx'; // Consolidated import for actions
 import './CartItem.css'; // Assuming you want to use the CSS file mentioned in snippet 2
 
 const CartItem = ({ onContinueShopping }) => {
